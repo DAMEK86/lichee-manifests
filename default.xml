@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+
+    <!-- Settings -->
+    <default sync-j="10" revision="dunfell" />
+
+    <!-- Remotes -->
+    <remote fetch="https://git.yoctoproject.org/git"    name="yocto"/>
+    <remote fetch="https://github.com/openembedded"     name="oe"/>
+    <remote fetch="https://github.com/"                 name="github"/>
+    <remote fetch="http://code.qt.io/"                  name="code.qt"/>
+
+    <!-- Base stuff -->
+    <project remote="yocto"
+             name="poky"
+             revision="dunfell"
+             path="sources/poky"/>
+    <project remote="oe"
+             revision="dunfell"
+             name="meta-openembedded"
+             path="sources/meta-openembedded"/>
+    <project remote="github"
+             revision="dunfell"
+             name="meta-qt5/meta-qt5"
+             path="sources/meta-qt5"/>
+
+    <!-- bsp -->
+    <project remote="github"
+             revision="dunfell"
+             name="damek86/meta-licheepizero"
+             path="sources/meta-licheepizero"/>
+    
+    <project remote="github"
+             revision="dunfell"
+             name="damek86/meta-chai"
+             path="sources/meta-chai"/>
+</manifest>
