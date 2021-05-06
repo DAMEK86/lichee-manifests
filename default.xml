@@ -26,9 +26,9 @@
 
     <!-- bsp -->
     <project remote="github"
-             revision="dunfell"
-             name="damek86/meta-licheepizero"
-             path="sources/meta-licheepizero"/>
+             revision="hardknott"
+             name="linux-sunxi/meta-sunxi"
+             path="sources/meta-sunxi"/>
     
     <project remote="github"
              revision="dunfell"
