@@ -34,4 +34,9 @@
              revision="dunfell"
              name="damek86/meta-chai"
              path="sources/meta-chai"/>
+    
+    <project remote="github"
+             revision="dunfell"
+             name="damek86/meta-nightowl"
+             path="sources/meta-nightowl"/>
 </manifest>
