@@ -2,7 +2,7 @@
 <manifest>
 
     <!-- Settings -->
-    <default sync-j="10" revision="dunfell" />
+    <default sync-j="10" revision="kirkstone" />
 
     <!-- Remotes -->
     <remote fetch="https://git.yoctoproject.org/git"    name="yocto"/>
@@ -13,30 +13,24 @@
     <!-- Base stuff -->
     <project remote="yocto"
              name="poky"
-             revision="dunfell"
              path="sources/poky"/>
     <project remote="oe"
-             revision="dunfell"
              name="meta-openembedded"
              path="sources/meta-openembedded"/>
     <project remote="github"
-             revision="dunfell"
              name="meta-qt5/meta-qt5"
              path="sources/meta-qt5"/>
 
     <!-- bsp -->
     <project remote="github"
-             revision="hardknott"
              name="linux-sunxi/meta-sunxi"
              path="sources/meta-sunxi"/>
-    
+
     <project remote="github"
-             revision="dunfell"
              name="damek86/meta-chai"
              path="sources/meta-chai"/>
-    
+
     <project remote="github"
-             revision="dunfell"
              name="damek86/meta-nightowl"
              path="sources/meta-nightowl"/>
 </manifest>
