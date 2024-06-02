@@ -2,7 +2,7 @@
 <manifest>
 
     <!-- Settings -->
-    <default sync-j="10" revision="kirkstone" />
+    <default sync-j="10" revision="scarthgap" />
 
     <!-- Remotes -->
     <remote fetch="https://git.yoctoproject.org/git"    name="yocto"/>
@@ -33,4 +33,18 @@
     <project remote="github"
              name="damek86/meta-nightowl"
              path="sources/meta-nightowl"/>
+
+    <project remote="github"
+             name="riscv/meta-riscv"
+             path="sources/meta-riscv"/>
+
+    <project remote="yocto"
+             name="meta-zephyr"
+             revision="master"
+             path="sources/meta-zephyr"/>
+
+    <project remote="github"
+             name="kinsamanka/meta-milkv"
+             revision="master"
+             path="sources/meta-milkv"/>
 </manifest>
