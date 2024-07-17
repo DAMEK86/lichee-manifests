@@ -25,6 +25,9 @@
     <project remote="github"
              name="linux-sunxi/meta-sunxi"
              path="sources/meta-sunxi"/>
+    <project remote="yocto"
+             name="meta-arm"
+             path="sources/meta-arm"/>
 
     <project remote="github"
              name="damek86/meta-chai"
