@@ -37,8 +37,10 @@
              name="damek86/meta-nightowl"
              path="sources/meta-nightowl"/>
 
+    <!--name="riscv/meta-riscv"-->
     <project remote="github"
-             name="riscv/meta-riscv"
+             name="damek86/meta-riscv"
+             revision="master"
              path="sources/meta-riscv"/>
 
     <project remote="yocto"
