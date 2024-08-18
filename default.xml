@@ -43,11 +43,11 @@
 
     <project remote="yocto"
              name="meta-zephyr"
-             revision="master"
              path="sources/meta-zephyr"/>
 
+    <!--name="kinsamanka/meta-milkv"-->
     <project remote="github"
-             name="kinsamanka/meta-milkv"
+             name="damek86/meta-milkv"
              revision="master"
              path="sources/meta-milkv"/>
 </manifest>
